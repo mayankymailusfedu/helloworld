@@ -1,0 +1,37 @@
+ git status - see status of file
+
+git add <file.extension> - add a file to git
+
+git add . - add everything
+
+git add *.html
+
+Ignore a particular file to add - 
+touch .gitignore
+sepcify the file name to be ignored in the .gitignore file like *.log
+
+git commit -a -m <commit_message>
+
+git clone link
+
+git log - commmit history
+
+Create branch - git branch BranchName
+
+Login to that branch - git checkout BranchName
+
+go back to home/master branch - git checkout master
+
+merge branches (go to the detsination) - git merge BranchName
+
+save unfinsied changes - git stash
+
+continue on unfinished changes - git stash apply
+
+git fetch origin - fetch all the changes from remote repositoryform last clone command. The changes won't be saved in you machine, we have to save them manually.
+
+git pull orgin - fetch and save all the changes from remote repositoryform last clone command
+
+git push origin master - push the changes to the remote repository
+
+fit remote add repositoryName repositoryLink - to add a reposiyory
